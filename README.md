@@ -1,4 +1,4 @@
-# Sync Google Calendar events to Bryntum Calendar with Google authentication
+# How to connect and sync a React Bryntum Calendar to a Microsoft Outlook Calendar
 
 This starter project was generated using the [Vite with TypeScript and React starter template](https://vite.dev/guide/#scaffolding-your-first-vite-project).
 
