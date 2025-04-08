@@ -1,0 +1,38 @@
+#root {
+  font-family: "Poppins";
+  text-align: center;
+  align-items: center;
+}
+
+header {
+  background: var(--bryntum-primary);
+  padding: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 40px;
+  width: 40px;
+  margin-left: 4px;
+}
+
+.title-container {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  font-size: 1.3em;
+  gap: 0.5rem;
+}
+
+.title-container h1 {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.b-calendar {
+  min-height: calc(100vh - 57px);
+  padding: 0 7px;
+  box-shadow: 0.4rem 0.4rem 1.2rem rgb(0 0 0 / 5%);
+}
