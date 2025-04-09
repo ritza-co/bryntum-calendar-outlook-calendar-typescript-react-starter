@@ -1,21 +1,8 @@
-import bryntumLogo from '../assets/bryntum-symbol-white.svg';
+import Calendar from './Calendar';
 import '../css/App.css';
 
-function App() {
-
+export default function App() {
     return (
-        <>
-            <header>
-                <div className="title-container">
-                    <img src={bryntumLogo} role="presentation" />
-                    <h1>
-                        Bryntum Calendar synced with Outlook Calendar demo
-                    </h1>
-                </div>
-            </header>
-            TODO
-        </>
+        <Calendar />
     );
 }
-
-export default App;
