@@ -12,6 +12,15 @@ Install the dependencies by running the following command:
 npm install
 ```
 
+Register your app in [Microsoft Entra admin center](https://entra.microsoft.com/) and make note of the Application (client) ID.
+
+Create a  `.env` file in the root folder of your React Bryntum app and add the following variables to it:
+
+```
+VITE_MS_CLIENT_ID="your Application (client) ID"
+VITE_MS_REDIRECT_URI="http://localhost:5173/"
+```
+
 ## Running the app
 
 Run the local dev server using the following command:
@@ -20,6 +29,4 @@ Run the local dev server using the following command:
 npm run dev
 ```
 
-Open `http://localhost:5173`. You will see a blue header with the title **Bryntum Calendar synced with Outlook Calendar demo** and text reading **TODO** rendered below the header:
-
-![Initial app](./src/assets/initial-app.png)
+Open `http://localhost:5173` to see the Calendar app. 
