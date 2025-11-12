@@ -2,6 +2,7 @@
   font-family: "Poppins";
   text-align: center;
   align-items: center;
+  height: calc(100vh - 65px);
 }
 
 header {
@@ -66,4 +67,9 @@ header img {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.b-react-button-container {
+  display: flex;
+  justify-content: center;
 }

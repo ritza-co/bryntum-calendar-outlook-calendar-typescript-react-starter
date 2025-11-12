@@ -16,7 +16,7 @@ export function createCalendarConfig({ syncData, addRecord }: CalendarConfigOpti
         eventEditFeature : {
             items : {
                 nameField : {
-                    required : true
+                    defaultValue : 'New Event'
                 },
                 resourceField   : null,
                 recurrenceCombo : null

@@ -201,18 +201,16 @@ export default function Calendar() {
                 </div>
                 <AuthenticatedTemplate>
                     <BryntumButton
-                        cls="b-raised"
                         text={app.user && app.isLoading ? 'Signing out...' : 'Sign out'}
-                        color='b-blue'
+                        rendition="tonal"
                         onClick={() => app.signOut?.()}
                         disabled={app.isLoading}
                     />
                 </AuthenticatedTemplate>
                 <UnauthenticatedTemplate>
                     <BryntumButton
-                        cls="b-raised"
                         text={app.isLoading ? 'Signing in...' : 'Sign in with Microsoft'}
-                        color='b-blue'
+                        rendition="tonal"
                         onClick={() => app.signIn?.()}
                         disabled={app.isLoading}
                     />

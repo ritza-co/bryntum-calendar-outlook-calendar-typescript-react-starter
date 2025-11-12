@@ -4,7 +4,6 @@ import { IPublicClientApplication } from '@azure/msal-browser';
 
 import Calendar from './Calendar';
 import '../css/App.css';
-import '@bryntum/calendar/calendar.stockholm.css';
 import ProvideAppContext from '../AppContext';
 
 type AppProps = {

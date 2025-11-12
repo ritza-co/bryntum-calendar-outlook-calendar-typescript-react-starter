@@ -37,7 +37,7 @@ function SignInModal() {
 
     return (
         isVisible ? (
-            <FocusTrap focusTrapOptions={{ initialFocus : '.b-raised' }}>
+            <FocusTrap focusTrapOptions={{ initialFocus : '.b-button-tonal' }}>
                 <div className="sign-in-modal">
                     <div className="sign-in-modal-content">
                         <div className="sign-in-modal-content-text">
@@ -46,15 +46,14 @@ function SignInModal() {
                         </div>
                         <div className="close-modal">
                             <BryntumButton
-                                icon='b-fa-xmark'
-                                cls="b-transparent b-rounded"
+                                icon='fa-times'
+                                rendition="transparent"
                                 onClick={() => setIsVisible(false)}
                             />
                         </div>
                         <BryntumButton
-                            cls="b-raised"
                             text={app.isLoading ? 'Signing in...' : 'Sign in with Microsoft'}
-                            color='b-blue'
+                            rendition="tonal"
                             onClick={() => app.signIn?.()}
                             disabled={app.isLoading}
                         />
