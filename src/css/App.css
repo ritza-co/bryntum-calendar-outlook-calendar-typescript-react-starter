@@ -2,6 +2,7 @@
   font-family: "Poppins";
   text-align: center;
   align-items: center;
+  height: calc(100vh - 65px);
 }
 
 header {
@@ -35,4 +36,9 @@ header img {
   min-height: calc(100vh - 57px);
   padding: 0 7px;
   box-shadow: 0.4rem 0.4rem 1.2rem rgb(0 0 0 / 5%);
+}
+
+.b-react-button-container {
+  display: flex;
+  justify-content: center;
 }
